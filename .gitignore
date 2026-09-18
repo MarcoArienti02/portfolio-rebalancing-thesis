@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+
+# Proprietary and local data
+data/raw/
+data/interim/
+data/processed/
+*.xlsx
+*.xls
+*.ods
+*.parquet
+*.feather
+*.csv
+
+# Generated research outputs
+results/
+plots/
+figures/generated/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and LaTeX build files
+*.tmp
+*.temp
+*.bak
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
